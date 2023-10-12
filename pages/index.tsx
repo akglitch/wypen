@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
 import { Navbar } from "@/components/navbar";
@@ -10,6 +11,7 @@ export default function IndexPage() {
 	<Navbar />
 	<Header />
 	<Services />
+	<Footer />
 	</>
 	);
 }
