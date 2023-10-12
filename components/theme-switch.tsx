@@ -11,7 +11,7 @@ export interface ThemeSwitchProps {
   classNames?: SwitchProps["classNames"];
 }
 
-export const ThemeSwitch: FC<ThemeSwitchProps> = ({
+const ThemeSwitch: FC<ThemeSwitchProps> = ({
   className,
   classNames,
 }) => {
@@ -42,8 +42,10 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
   // Prevent Hydration Mismatch
   if (!isMounted) return <div className="w-6 h-6" />;
 
+  const SwitchComponent = Component as FC; // Create a higher-order component
+
   return (
-    <Component
+    <SwitchComponent
       {...getBaseProps({
         className: clsx(
           "px-px transition-opacity hover:opacity-80 cursor-pointer",
@@ -76,6 +78,8 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
       >
         {isSelected ? <MoonFilledIcon size={22} /> : <SunFilledIcon size={22} />}
       </div>
-    </Component>
+    </SwitchComponent>
   );
 };
+
+export default ThemeSwitch;
