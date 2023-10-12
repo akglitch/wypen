@@ -41,13 +41,13 @@ function Header() {
           animate="visible"
         >
           <motion.h2
-            className="text-4xl max-w-md text-white"
+            className="text-4xl max-w-md "
             variants={fadeIn}
           >
             Your Big Idea
           </motion.h2>
           <motion.p
-            className="max-w-md text-white"
+            className="max-w-md "
             variants={fadeIn}
           >
             It&apos;s fast, flexible, and reliable — with zero-runtime.
@@ -60,13 +60,13 @@ function Header() {
           animate="visible"
         >
           <motion.h2
-            className="text-4xl max-w-md text-white"
+            className="text-4xl max-w-md "
             variants={fadeIn}
           >
             Tailwind CSS works by scanning all of your HTML
           </motion.h2>
           <motion.p
-            className="max-w-md text-white"
+            className="max-w-md "
             variants={fadeIn}
           >
             It&apos;s fast, flexible, and reliable — with zero-runtime.
@@ -79,13 +79,13 @@ function Header() {
           animate="visible"
         >
           <motion.h2
-            className="text-4xl max-w-md text-white"
+            className="text-4xl max-w-md "
             variants={fadeIn}
           >
             React, Vue, and HTML
           </motion.h2>
           <motion.p
-            className="max-w-md text-white"
+            className="max-w-md "
             variants={fadeIn}
           >
             Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you&apos;d rather write any necessary JS yourself.
