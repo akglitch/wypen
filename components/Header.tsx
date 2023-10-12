@@ -50,7 +50,7 @@ function Header() {
             className="max-w-md text-white"
             variants={fadeIn}
           >
-            It's fast, flexible, and reliable — with zero-runtime.
+            It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
         </motion.div>
         <motion.div
@@ -69,7 +69,7 @@ function Header() {
             className="max-w-md text-white"
             variants={fadeIn}
           >
-            It's fast, flexible, and reliable — with zero-runtime.
+            It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
         </motion.div>
         <motion.div
@@ -88,7 +88,7 @@ function Header() {
             className="max-w-md text-white"
             variants={fadeIn}
           >
-            Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you’d rather write any necessary JS yourself.
+            Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you&apos;d rather write any necessary JS yourself.
           </motion.p>
         </motion.div>
       </div>
