@@ -3,7 +3,7 @@ function Services() {
         <>
     
 <section className="">
-    <div className="container px-6 py-10 mx-auto">
+    <div className="container px-6 py-6 mx-auto">
         <h1 className="text-3xl font-semibold  capitalize lg:text-4xl ">explore our <br></br> awesome <span className="underline decoration-blue-500">Services</span></h1>
         
         <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">

@@ -9,15 +9,15 @@ function Header() {
       const left = slider.clientWidth;
 
       if (max === slider.scrollLeft) {
-        slider.scrollTo({ left: 0, behavior: 'smooth' });
+        slider.scrollTo({ left: 0, behavior: 'auto' });
       } else {
-        slider.scrollBy({ left, behavior: 'smooth' });
+        slider.scrollBy({ left, behavior: 'auto' });
       }
 
-      setTimeout(moveSlide, 2000);
+      setTimeout(moveSlide, 6000); // Adjusted to 6 seconds
     };
 
-    setTimeout(moveSlide, 2000);
+    setTimeout(moveSlide, 6000); // Adjusted to 6 seconds
   }, []);
 
   const fadeIn = {
@@ -33,10 +33,14 @@ function Header() {
 
   return (
     <>
-      <div className="h-screen w-full overflow-hidden flex flex-nowrap text-center" id="slider">
+      <div className="h-[80vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
         <motion.div
-          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative"
-          style={{ backgroundImage: 'url("pic3.jpg")', height: '90%' }}
+          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
+          style={{
+            backgroundImage: 'url("pic3.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
           variants={stagger}
           initial="hidden"
           animate="visible"
@@ -50,8 +54,12 @@ function Header() {
           <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
         <motion.div
-          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative"
-          style={{ backgroundImage: 'url("pic2.jpg")', height: '90%' }}
+          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
+          style={{
+            backgroundImage: 'url("pic2.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
           variants={stagger}
           initial="hidden"
           animate="visible"
@@ -65,8 +73,12 @@ function Header() {
           <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
         <motion.div
-          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative"
-          style={{ backgroundImage: 'url("pic.jpg")', height: '90%' }}
+          className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
+          style={{
+            backgroundImage: 'url("pic.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
           variants={stagger}
           initial="hidden"
           animate="visible"
