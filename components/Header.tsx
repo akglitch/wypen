@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <>
-      <div className="h-[80vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
+      <div className="h-[93vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
