@@ -38,8 +38,8 @@ function Header() {
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
             backgroundImage: 'url("pic3.jpg")',
-            backgroundSize: 'cover',      // Added backgroundSize property
-            backgroundPosition: 'center', // Added backgroundPosition property
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
           variants={stagger}
           initial="hidden"
@@ -49,7 +49,7 @@ function Header() {
             Your Big Idea
           </motion.h2>
           <motion.p className="max-w-md text-white" variants={fadeIn}>
-            It's fast, flexible, and reliable — with zero-runtime.
+            It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
           <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
@@ -57,8 +57,8 @@ function Header() {
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
             backgroundImage: 'url("pic2.jpg")',
-            backgroundSize: 'cover',      // Added backgroundSize property
-            backgroundPosition: 'center', // Added backgroundPosition property
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
           variants={stagger}
           initial="hidden"
@@ -68,7 +68,7 @@ function Header() {
             Tailwind CSS works by scanning all of your HTML
           </motion.h2>
           <motion.p className="max-w-md text-white" variants={fadeIn}>
-            It's fast, flexible, and reliable — with zero-runtime.
+            It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
           <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
@@ -76,8 +76,8 @@ function Header() {
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
             backgroundImage: 'url("pic.jpg")',
-            backgroundSize: 'cover',      // Added backgroundSize property
-            backgroundPosition: 'center', // Added backgroundPosition property
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
           variants={stagger}
           initial="hidden"
@@ -87,7 +87,7 @@ function Header() {
             React, Vue, and HTML
           </motion.h2>
           <motion.p className="max-w-md text-white" variants={fadeIn}>
-            Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you'd rather write any necessary JS yourself.
+            Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you&apos;d rather write any necessary JS yourself.
           </motion.p>
           <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
