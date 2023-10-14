@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <>
-      <div className="h-[93vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
+      <div className="h-[92vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
@@ -51,7 +51,7 @@ function Header() {
           <motion.p className="max-w-md text-white" variants={fadeIn}>
             It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
-          <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
+          <i className="fa fa-angle-double-down text-white fa-3x absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
@@ -70,7 +70,7 @@ function Header() {
           <motion.p className="max-w-md text-white" variants={fadeIn}>
             It&apos;s fast, flexible, and reliable — with zero-runtime.
           </motion.p>
-          <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
+          <i className="fa fa-angle-double-down text-white fa-3x absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
@@ -89,7 +89,7 @@ function Header() {
           <motion.p className="max-w-md text-white" variants={fadeIn}>
             Accessible, interactive examples for React and Vue powered by Headless UI, plus vanilla HTML if you&apos;d rather write any necessary JS yourself.
           </motion.p>
-          <i className="fa fa-arrow-circle-o-down text-white text-4xl absolute bottom-4 animate-bounce cursor-pointer"></i>
+          <i className="fa fa-angle-double-down text-white fa-3x absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
       </div>
     </>
