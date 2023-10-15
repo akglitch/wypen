@@ -3,7 +3,7 @@ import React from 'react';
 function Herotwo() {
   return ( 
     <div>
-      <div className="text-black text-center p-4 mt-40 mb-40">
+      <div className=" text-center p-4 mt-40 mb-40">
         <p className="text-3xl font-extrabold">
           The world is an incredibly <span className="text-3xl text-blue-400">luxurious</span> place.
         </p>
