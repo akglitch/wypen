@@ -8,10 +8,10 @@ function Herotwo() {
           The world is an incredibly <span className="text-3xl text-blue-400">luxurious</span> place.
         </p>
         <p className="mt-2 text-xl">
-          It's a realm of opulence, elegance, and boundless possibilities.
+          It&rsquo;s a realm of opulence, elegance, and boundless possibilities.
         </p>
         <p className="mt-2 text-xl">
-          Lets uncover its treasures and embrace its grandeur.
+          Let&rsquo;s uncover its treasures and embrace its grandeur.
         </p>
       </div>
     </div>
