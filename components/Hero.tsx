@@ -22,7 +22,7 @@ function Hero() {
         </header>
       </div>
     </div>
-    <img src="https://images.unsplash.com/photo-1536147116438-62679a5e01f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Leafs" className="w-full h-[50vh] object-cover sm:h-screen sm:w-4/12"/>
+    <img src="https://images.unsplash.com/photo-1536147116438-62679a5e01f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Leafs"  className="w-full max-h-[50vh] object-cover sm:h-screen sm:w-4/12"/>
   </div>
     </> );
 }
