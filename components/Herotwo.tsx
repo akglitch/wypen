@@ -11,7 +11,7 @@ function Herotwo() {
           It's a realm of opulence, elegance, and boundless possibilities.
         </p>
         <p className="mt-2 text-xl">
-          Let&rsquo;s uncover its treasures and embrace its grandeur.
+          Lets uncover its treasures and embrace its grandeur.
         </p>
       </div>
     </div>
