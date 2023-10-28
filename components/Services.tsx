@@ -1,5 +1,5 @@
 import React from 'react';
-import serviceData from './serviceData'; // Path to your service data file
+import serviceData from './serviceData';
 
 function Services() {
   return (
@@ -9,7 +9,7 @@ function Services() {
       </h1>
 
       <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-      Discover our line of cutting-edge, eco-conscious products and services that combine innovation and environmental responsibility. From solar-powered solutions to biodegradable materials, each of our offerings reflects our dedication to reducing our carbon footprint while delivering exceptional performance
+        Discover our line of cutting-edge, eco-conscious products and services that combine innovation and environmental responsibility. From solar-powered solutions to biodegradable materials, each of our offerings reflects our dedication to reducing our carbon footprint while delivering exceptional performance.
       </p>
 
       <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
@@ -19,11 +19,11 @@ function Services() {
               {service.icon}
             </span>
 
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+            <h1 className="text-2xl font-semibold text-gray-400 capitalize dark:text-white">
               {service.title}
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-gray-500 ">
               {service.description}
             </p>
 

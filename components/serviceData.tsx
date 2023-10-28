@@ -26,9 +26,9 @@ const serviceData = [
       </svg>
     ),
     title: 'Environmental Impact',
-    description: 'Learn about our strategies for reducing our environmental impact. Were committed to enhancing our practices, using renewable resources, and minimizing waste to create a sustainable future.',
+    description: 'Learn about our strategies for reducing our environmental impact. We\'re committed to enhancing our practices, using renewable resources, and minimizing waste to create a sustainable future.',
   },
-  // Add more service objects as needed
+  
 ];
 
 export default serviceData;
