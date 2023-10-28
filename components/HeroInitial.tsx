@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import Image from 'next/image'; // Import Image from next/image
 
 function HeroInitial() {
   return (
-    <div className=" py-12 px-4 md:px-8 lg:px-20">
+    <div className="py-12 px-4 md:px-8 lg:px-20">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8">
@@ -17,7 +18,13 @@ function HeroInitial() {
             </button>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <img src="andrew-coelho-aL7SA1ASVdQ-unsplash.jpg" alt="Nature" className="w-full rounded-lg shadow-md" />
+            <Image
+              src="/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg"
+              alt="Nature"
+              className="w-full rounded-lg shadow-md"
+              width={800} // Set width and height attributes
+              height={600}
+            />
           </div>
         </div>
       </div>
