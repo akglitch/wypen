@@ -37,7 +37,7 @@ function Header() {
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
-            backgroundImage: 'url("pic3.jpg")',
+            backgroundImage: 'url("randy-fath-dDc0vuVH_LU-unsplash.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -56,7 +56,7 @@ function Header() {
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
-            backgroundImage: 'url("pic2.jpg")',
+            backgroundImage: 'url("irewolede-PvwdlXqo85k-unsplash.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -75,7 +75,7 @@ function Header() {
         <motion.div
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
-            backgroundImage: 'url("pic.jpg")',
+            backgroundImage: 'url("steven-weeks-DUPFowqI6oI-unsplash.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

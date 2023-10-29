@@ -9,61 +9,46 @@ export const siteConfig = {
 			href: "/",
 		},
     {
-      label: "Docs",
+      label: "About",
       href: "/docs",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Services",
+      href: "/services",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Gallery",
+      href: "/gallery",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Contact",
+      href: "/contact",
     }
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			href: "/",
 		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+    {
+      label: "About",
+      href: "/docs",
+    },
+    {
+      label: "Services",
+      href: "/services",
+    },
+    {
+      label: "Gallery",
+      href: "/gallery",
+    },
+    {
+      label: "Contact",
+      href: "/contact",
+    }
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui-docs-v2.vercel.app",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		github: "https://github.com/akglitch",
+		twitter: "https://twitter.com/aninakwageorge1",
 	},
 };
