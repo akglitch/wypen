@@ -29,13 +29,13 @@ function Hero() {
           </div>
         </div>
         <div className="w-full sm:h-screen sm:w-4/12">
-          <Image
-            src="/chris-lee-70l1tDAI6rM-unsplash.jpg"
-            alt="Leafs"
-            layout="responsive"
-            width={300}
-            height={500}
-          />
+        <Image
+  src="/chris-lee-70l1tDAI6rM-unsplash.jpg"
+  alt="Leafs"
+  width={300}
+  height={500}
+/>
+
         </div>
       </div>
     </>
