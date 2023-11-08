@@ -14,19 +14,18 @@ function Contact() {
               <p className="flex items-start -mx-2">
                 <i className="fa fa-location-arrow text-blue-400"></i>
                 <span className="mx-2  truncate w-72 dark:text-gray-400">
-                  Cecilia Chapman 711-2880 Nulla
-                  St. Mankato Mississippi 96522
+                amoah street kumasi, ahodwo
                 </span>
               </p>
 
               <p className="flex items-start -mx-2">
                 <i className="fa fa-phone text-blue-400" ></i>
-                <span className="mx-2  truncate w-72 dark:text-gray-400">(257) 563-7401</span>
+                <span className="mx-2  truncate w-72 dark:text-gray-400"> +233 209742331</span>
               </p>
 
               <p className="flex items-start -mx-2">
                 <i className="fa fa-envelope-o text-blue-400" ></i>
-                <span className="mx-2  truncate w-72 dark:text-gray-400">acb@example.com</span>
+                <span className="mx-2  truncate w-72 dark:text-gray-400">ntirianinakwa@gmail.com</span>
               </p>
             </div>
 
