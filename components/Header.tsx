@@ -69,6 +69,7 @@ function Header() {
             backgroundImage: slide.image,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            
           }}
           variants={fadeIn}
           initial="hidden"
