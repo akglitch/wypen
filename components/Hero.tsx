@@ -32,7 +32,10 @@ function Hero() {
         <Image
   src="/chris-lee-70l1tDAI6rM-unsplash.jpg"
   alt="Leafs"
-  width={300}
+  loading = 'lazy'
+  blurDataURL='/chris-lee-70l1tDAI6rM-unsplash.jpg'
+  placeholder='blur'
+  width={500}
   height={500}
 />
 

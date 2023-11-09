@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import Image from 'next/image'; // Import Image from next/image
 
 function HeroInitial() {
