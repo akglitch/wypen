@@ -54,6 +54,7 @@ function Header() {
   };
 
   return (
+    <div id="home"  >
     <div className="h-[92vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider" ref={sliderRef}>
       {slides.map((slide, index) => (
         <motion.div
@@ -76,6 +77,7 @@ function Header() {
           <i className="fa fa-angle-double-down text-white fa-3x absolute bottom-4 animate-bounce cursor-pointer"></i>
         </motion.div>
       ))}
+    </div>
     </div>
   );
 }
