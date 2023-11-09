@@ -1,58 +1,52 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
-interface Slide {
-  image: string;
-  title: string;
-  text: string;
-}
-
-const slides: Slide[] = [
-  {
-    image: 'url("randy-fath-dDc0vuVH_LU-unsplash.jpg")',
-    title: 'Discover Sustainable Style!',
-    text: 'Explore our collection of eco-friendly fashion and accessories - where style meets sustainability.',
-  },
-  {
-    image: 'url("irewolede-PvwdlXqo85k-unsplash.jpg")',
-    title: 'Every Purchase Counts!',
-    text: 'With each purchase, you\'re supporting a greener future. Join us in reducing plastic waste and carbon emissions.',
-  },
-  {
-    image: 'url("steven-weeks-DUPFowqI6oI-unsplash.jpg")',
-    title: 'Autumn Essentials: Sustainable and Stylish!',
-    text: 'Embrace the fall season with our eco-friendly collection - cozy, chic, and good for the planet.',
-  },
-  // Add more slides similarly
-];
-
 function Header() {
   const sliderRef = useRef<HTMLDivElement>(null);
-  const currentSlide = useRef<number>(0);
 
   useEffect(() => {
-    const moveSlide = () => {
-      const slider = sliderRef.current;
+    const slider = sliderRef.current;
+    let sliding = false;
 
-      if (slider) {
+    const moveSlide = () => {
+      if (!sliding && slider) {
+        sliding = true;
+
         const max = slider.scrollWidth - slider.clientWidth;
         const left = slider.clientWidth;
 
-        currentSlide.current = (currentSlide.current + 1) % slides.length;
-        const nextSlide = currentSlide.current * left;
-
         if (max === slider.scrollLeft) {
-          slider.scrollTo({ left: 0, behavior: 'auto' });
+          setTimeout(() => {
+            slider.scrollTo({ left: 0, behavior: 'auto' });
+            sliding = false;
+          }, 2000); // Wait for 2 seconds before resetting the slide
         } else {
-          slider.scrollBy({ left, behavior: 'smooth' });
+          slider.scrollBy({ left, behavior: 'auto' });
+          sliding = false;
         }
       }
 
-      setTimeout(moveSlide, 6000);
+      setTimeout(moveSlide, 6000); // Adjusted to 6 seconds
     };
 
-    setTimeout(moveSlide, 6000);
+    setTimeout(moveSlide, 6000); // Adjusted to 6 seconds
   }, []);
+
+  const slides = [
+    {
+      title: 'Discover Sustainable Style!',
+      text: 'Explore our collection of eco-friendly fashion and accessories - where style meets sustainability.',
+    },
+    {
+      title: 'Every Purchase Counts!',
+      text: 'With each purchase, you\'re supporting a greener future. Join us in reducing plastic waste and carbon emissions.',
+    },
+    {
+      title: 'Autumn Essentials: Sustainable and Stylish!',
+      text: 'Embrace the fall season with our eco-friendly collection - cozy, chic, and good for the planet.',
+    },
+    // Add more slides similarly
+  ];
 
   const fadeIn = {
     hidden: { opacity: 0 },
@@ -60,20 +54,18 @@ function Header() {
   };
 
   return (
-    <div className="h-[92vh] w-full overflow-hidden flex flex-nowrap text-center" ref={sliderRef}>
-      {slides.map((slide: Slide, index: number) => (
+    <div className="h-[92vh] w-full overflow-hidden flex flex-nowrap text-center" id="slider" ref={sliderRef}>
+      {slides.map((slide, index) => (
         <motion.div
           key={index}
           className="space-y-4 flex-none w-full flex flex-col items-center justify-center bg-cover relative h-80vh"
           style={{
-            backgroundImage: slide.image,
+            backgroundImage: 'url("/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            
           }}
-          variants={fadeIn}
-          initial="hidden"
-          animate="visible"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
         >
           <motion.h2 className="text-4xl max-w-md text-white" variants={fadeIn}>
             {slide.title}
