@@ -3,7 +3,8 @@ import Image from 'next/image'; // Import Image from next/image
 
 function HeroInitial() {
   return (
-    <div className="py-12 px-4 md:px-8 lg:px-20">
+    <div id="about">
+    <div  className="py-12 px-4 md:px-8 lg:px-20">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8">
@@ -28,6 +29,7 @@ function HeroInitial() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

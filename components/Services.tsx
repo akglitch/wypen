@@ -3,6 +3,7 @@ import serviceData from './serviceData';
 
 function Services() {
   return (
+    <div id="services">
     <section className="container px-6 py-6 mx-auto">
       <h1 className="text-3xl font-semibold border-l-4 pl-2 capitalize lg:text-4xl border-blue-400">
         explore our <br></br> awesome <span className="underline decoration-blue-500">Services</span>
@@ -36,6 +37,7 @@ function Services() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
 
